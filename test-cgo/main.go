@@ -1,6 +1,6 @@
 package main
 
-// #cgo LDFLAGS: -L ./ -lfoo
+// #cgo LDFLAGS: -L ./ -lfoo -Wl,-rpath=./
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include "foo.h"
